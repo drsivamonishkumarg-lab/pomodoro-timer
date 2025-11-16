@@ -8,7 +8,7 @@ This project was built using standard front-end technologies and is hosted live 
 
 Use the timer right now! It is hosted publicly via GitHub Pages.
 
-🔗 [Link to Your GitHub Pages URL Here] (e.g., `https://drsivamonishkumarg-lab.github.io/pomodoro-timer`)
+🔗 https://drsivamonishkumarg-lab.github.io/pomodoro-timer
 
 ## ✨ Key Features
 
