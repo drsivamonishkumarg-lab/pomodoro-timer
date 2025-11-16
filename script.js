@@ -1,3 +1,11 @@
+// PWA Service Worker Registration
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registered!'))
+      .catch(err => console.log('Service Worker registration failed: ', err));
+  });
+}
 // --- Setup Variables ---
 const pomodoroDuration = 25 * 60; // 25 minutes in seconds
 let timeRemaining = pomodoroDuration;
